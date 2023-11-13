@@ -32,6 +32,7 @@ Install the dependencies using the following command:
 ## Clone the repository:
 
   git clone https://github.com/elsayedelmandoh/national_id_card_recognition.git
+  
   cd your-repository
 
 
