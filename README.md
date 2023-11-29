@@ -1,55 +1,30 @@
-# Tesseract OCR with Streamlit
+# Recognition ID ERU
 
-This project demonstrates Optical Character Recognition (OCR) using Tesseract and Streamlit. It allows users to upload an image, extract text from the whole image, or define custom regions of interest (ROIs) for targeted text extraction.
+This Streamlit application performs recognition on ID images and extracts relevant information.
 
-## Features
+## Table of Contents
 
-- Upload an image in common formats (jpg, jpeg, png).
-- Extract text from the entire image using Tesseract OCR.
-- Define custom ROIs to extract specific text from different regions of the image.
-- Visualize the preprocessing steps, including grayscale conversion and thresholding.
-- Display extracted text and visualize the corresponding ROIs on the image.
+- [Overview](#overview)
+- [Hosting](#hosting)
+- [Contributing](#contributing)
+- [Author](#author)
 
-## Prerequisites
+## Overview
 
-Before running the application, make sure you have the following dependencies installed:
+Recognition ID ERU is a Streamlit application that utilizes Tesseract OCR to extract information from ID images. It processes uploaded images, extracts data such as name, university, faculty, and ID, and displays the results in a structured Pandas DataFrame format.
 
-- Python 3.x
-- Streamlit
-- OpenCV
-- pytesseract
-- NumPy
-- Pandas
-- Matplotlib
-  
+## Hosting
+    - Local host:
+        1. Clone this repository: `git clone https://github.com/elsayedelmandoh/national_id_card_recognition.git`
+        2. Navigate to the project directory: `national_id_card_recognition`
+        3. Install the required dependencies: `pip install -r requirements.txt`
+        4. Run the Streamlit app: `streamlit run main.py`
+   
+   - Or visit this site:
+        [Link](https://code-evaluator-aypzh9o5p2xmsbmeepj8d7.streamlit.app/)
 
-Install the dependencies using the following command:
-
-    ```bash
-    pip install streamlit opencv-python pytesseract numpy pandas matplotlib
-
-
-## Clone the repository:
-
-  git clone https://github.com/elsayedelmandoh/national_id_card_recognition.git
-  
-  cd your-repository
-
-
-## Run the Streamlit app:
-  streamlit run main.py
-
-Open the provided URL in your web browser.
-
-Upload an image and choose the extraction option.
-
-Follow on-screen instructions to extract text from the whole image or define custom ROIs.
-
-  
 ## Contributing
-
-Contributions are welcome! Feel free to open issues, submit pull requests, or provide feedback.
+  Contributions are welcome! Feel free to open issues, submit pull requests, or provide feedback.
 
 ## Author
-
   Elsayed Elmandoh : [Linkedin](https://www.linkedin.com/in/elsayed-elmandoh-77544428a/).
