@@ -33,7 +33,7 @@ Recognition ID ERU is a Streamlit application that utilizes Tesseract OCR to ext
       ```
    
 - Or visit this site:
-        [Link](https://code-evaluator-aypzh9o5p2xmsbmeepj8d7.streamlit.app/)
+        [Link](https://nationalidcardrecognition-2hh29kjqj2gsdrfkefn93f.streamlit.app/)
 
 ## Contributing
   Contributions are welcome! Feel free to open issues, submit pull requests, or provide feedback.
