@@ -16,12 +16,21 @@ Recognition ID ERU is a Streamlit application that utilizes Tesseract OCR to ext
 ## Hosting
 Local host:
         1. Clone this repository: 
-            ```bash
+                ```bash
                 git clone https://github.com/elsayedelmandoh/national_id_card_recognition.git
-            ```
-        2. Navigate to the project directory: `national_id_card_recognition`
-        3. Install the required dependencies: `pip install -r requirements.txt`
-        4. Run the Streamlit app: `streamlit run main.py`
+                ```
+        2. Navigate to the project directory: 
+                ```bash
+                national_id_card_recognition
+                ```
+        3. Install the required dependencies: 
+                ```bash
+                `pip install -r requirements.txt`
+                ```
+        4. Run the Streamlit app: 
+                ```bash
+                streamlit run main.py
+                ```
    
 - Or visit this site:
         [Link](https://code-evaluator-aypzh9o5p2xmsbmeepj8d7.streamlit.app/)
