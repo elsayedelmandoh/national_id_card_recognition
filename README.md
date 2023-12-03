@@ -5,7 +5,6 @@ This Streamlit application performs recognition on ID images and extracts releva
 ## Table of Contents
 
 - [Overview](#overview)
-- [Hosting](#hosting)
 - [Contributing](#contributing)
 - [Author](#author)
 
@@ -32,9 +31,6 @@ Recognition ID ERU is a Streamlit application that utilizes Tesseract OCR to ext
       streamlit run main.py
       ```
    
-- Or visit this site:
-        [Link](https://nationalidcardrecognition-2hh29kjqj2gsdrfkefn93f.streamlit.app/)
-
 ## Contributing
   Contributions are welcome! Feel free to open issues, submit pull requests, or provide feedback.
 
